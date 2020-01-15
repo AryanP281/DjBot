@@ -17,4 +17,16 @@ namespace Misc
 
 	signed char Signum(double x);
 
+	double Sigmoid(double x);
+	double DeSigmoid(double y);
+
+	double Tanh(double x);
+	double TanhInverse(double y);
+
+	double ReLu(double x);
+	double DeReLu(double y);
+
+	double Average(double* vals, int n);
+
+	int PowWrt10(double x); /*Returns the power of x wrt 10*/
 }
